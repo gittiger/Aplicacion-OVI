@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE CONTENIDOS>
+<ListaContenidos numProyectos="3" fecha="06/10/2010">
+   
+	<Proyecto id="1" nombre= "Reconstruccion virtual de un craneo" area="Ciencias Biologicas y de la Salud">
+	<img src="recursos/craneoDes.jpg"/>
+	    <tags> 
+		    <tag id="1">craneo</tag>
+		    <tag id="2">biologia</tag>
+		    <tag id="3">salud</tag>
+		    <tag id="4">medicina</tag>
+		</tags>
+       <proyectPath equipo="HP wx4900"  os="GNU/Linux Debian">
+			<path>/home/ixtli/ixtliCraneo/Demo</path>
+				<version id="1" name ="CraneoRector"  script="run_CraneoR.sh" data=""/>
+				<version id="2" name ="CraneoBotonera"  script="run_Craneo_BotoneraAmira.sh" data=""/>
+		</proyectPath>
+    </Proyecto>
+	
+	<Proyecto id="2" nombre= "La pintura mura en México, bonampak"  area="Humanidades y de las Artes">
+	<img src="recursos/bonampak.jpg"/>
+	    <tags> 
+		    <tag id="1">Bonampak</tag>
+		    <tag id="2">Humanidades</tag>	
+		    <tag id="3">Recorridos virtuales</tag>
+		    <tag id="4">Sitios Arqueológico</tag>
+		</tags>
+		<proyectPath equipo="SGI Onyx 350"  os="Irix 64">
+			<path>/home/ixtli/navio</path>
+				<version id="2" name ="bonampakSGI"  script="run_3P_bonampak_path.sh" descripcion="solo para 3 pipes en la SGI"/>
+		</proyectPath>
+		<proyectPath equipo="HP wx4900"  os="GNU/Linux Debian">
+			<path>/home/ixtli/ContenidosIxtli/Int_Inv_Esteticas/BonampakVR</path>
+				<version id="1" name ="bonampak2P"  script="run_2P_bonampak.sh"  data=""/>
+				<version id="2" name ="bonampak3P"  script="run_3P_bonampak.sh"  data=""/>
+				<version id="3" name ="bonampak2PMono"  script="run_2P_bonampak.sh"  data=""/>
+				<version id="4" name ="bonampak3PMono"  script="run_3P_bonampak_path.sh"  data=""/>
+		</proyectPath>
+    </Proyecto>
+	
+	<Proyecto id="3" nombre= "Reconstrucción virtual de la tumba 5 en suchilquitongo"  area="Humanidades y de las Artes">
+	<img src="recursos/tumbaSuchil.jpg"/>
+	    <tags> 
+		    <tag id="1">Suchilquitongo</tag>
+		    <tag id="2">Humanidades</tag>	
+		    <tag id="3">Recorridos virtuales</tag>
+		    <tag id="4">Sitios Arqueológico</tag>
+		</tags>
+		<proyectPath equipo="SGI Onyx 350"  os="Irix 64">
+			<path>/home/ixtli/navio</path>
+				<version id="2" name ="suchilquitongoSGI"  script="run_3P_suchil_path.sh" descripcion=""/>
+		</proyectPath>
+		<proyectPath equipo="HP wx4900"  os="GNU/Linux Debian">
+			<path>/home/ixtli/ContenidosIxtli/Int_Inv_Esteticas/TumbaSuchilquitongoVR</path>
+				<version id="1" name ="suchilquitongo2P"  script="run_2P_suchil_path.sh"  data=""/>
+				<version id="2" name ="suchilquitongo2P"  script="run_2P_suchil_path.sh"  data=""/>
+				<version id="3" name ="suchilquitongo2PMono"  script="run_2P_suchil_path.sh"  data=""/>
+				<version id="4" name ="suchilquitongo3PMono"  script="run_3P_suchil_path.sh"  data=""/>
+		</proyectPath>
+    </Proyecto>
+	
+	<Proyecto id="4" nombre= "Reconstrucción virtual de el mercado Abelardo L. Rodriguez"  area="Humanidades y de las Artes">
+	<img src="recursos/mercado.jpg"/>
+	    <tags> 
+		    <tag id="1">Mercado</tag>
+		    <tag id="2">Humanidades</tag>	
+		    <tag id="3">Recorridos virtuales</tag>
+		    <tag id="4">Sitios Arqueológico</tag>
+		</tags>
+		<proyectPath equipo="SGI Onyx 350"  os="Irix 64">
+			<path>/home/ixtli/navio</path>
+				<version id="2" name ="mercadoSGI"  script="run_3P_mercado_patio.sh" descripcion=""/>
+		</proyectPath>
+		<proyectPath equipo="HP wx4900"  os="GNU/Linux Debian">
+			<path>/home/ixtli/ContenidosIxtli/Int_Inv_Esteticas/MercadoAbelardoVR</path>
+				<version id="1" name ="mercado2P"  script="run_2P_mercado.sh"  data=""/>
+				<version id="2" name ="mercado3P"  script="run_2P_mercado.sh"  data=""/>
+				<version id="3" name ="mercado2PMono"  script="run_2P_mercado.sh"  data=""/>
+				<version id="4" name ="mercado3PMono"  script="run_3P_mercado_patio.sh"  data=""/>
+		</proyectPath>
+    </Proyecto>
+	
+    <Proyecto id="5" nombre= "sismos vulcanotectónicos en México"  area="Ingenieria">
+	<img src="recursos/sismosVulcanotectonicos.jpg"/>
+	    <tags> 
+		    <tag id="1">Sismos</tag>
+		    <tag id="2">Geografía</tag>	
+		    <tag id="3">Simulaciones</tag>
+		    <tag id="4">Fenómenos naturales</tag>
+		</tags>
+		<proyectPath equipo="HP wx4900"  os="GNU/Linux Debian">
+			<path>/home/ixtli/suchilquitonfo</path>
+				<version id="1" name ="sismos2P"  script="notepad.exe"  data=""/>
+		</proyectPath>
+		<proyectPath equipo="SGI Onyx 350"  os="Irix 64">
+			<path>/home/ixtli/ContenidosIxtli/Geofisica</path>
+				<version id="2" name ="sismosSGI"  script="notepad.exe" descripcion=""/>
+		</proyectPath>
+    </Proyecto>
+
+     <Proyecto id="6" nombre= "Legorreta"  area="Ingenieria">
+	<img src="recursos/legorreta.jpg"/>
+	    <tags> 
+		    <tag id="1">Arquitectura</tag>
+		    <tag id="2">Legorreta</tag>	
+		    <tag id="3">Construcciones</tag>
+		    <tag id="4">Edificios</tag>
+		</tags>
+		<proyectPath equipo="HP wx4900"  os="GNU/Linux Debian">
+			<path>/home/ixtli/ContenidosIxtli/Fac_Arquitectura/Qatar_LegorretaVR/JC_Legorreta</path>
+				<version id="1" name ="Qatar_Legorreta3P"  script="run_3P_legorreta.sh" descripcion=""/>
+		</proyectPath>
+    </Proyecto>
+     <Proyecto id="7" nombre= "Atizapan"  area="Humanidades">
+	<img src="recursos/Atizapan.jpg"/>
+	    <tags> 
+		    <tag id="1">Arquitectura</tag>
+		    <tag id="2">Legorreta</tag>	
+		    <tag id="3">Construcciones</tag>
+		    <tag id="4">Edificios</tag>
+		</tags>
+		<proyectPath equipo="HP wx4900"  os="GNU/Linux Debian">
+			<path>/home/ixtli/ContenidosIxtli/DGSCA/AtizapanVR</path>
+				<version id="1" name ="Atizapan3P"  script="run_3P_atizapan.sh" descripcion=""/>
+		</proyectPath>
+    </Proyecto>
+    <Proyecto id="8" nombre= "CiudadMega"  area="Ciencias">
+	<img src="recursos/CiudadMega.jpg"/>
+	    <tags> 
+		    <tag id="1">Arquitectura</tag>
+		    <tag id="2">Legorreta</tag>	
+		    <tag id="3">Construcciones</tag>
+		    <tag id="4">Edificios</tag>
+		</tags>
+		<proyectPath equipo="HP wx4900"  os="GNU/Linux Debian">
+			<path>/home/ixtli/ContenidosIxtli/Fac_Ciencias/CiudadMegaVR</path>
+				<version id="1" name ="CiudadMEga3P"  script="run_3P_ciudad_mega.sh" descripcion=""/>
+		</proyectPath>
+    </Proyecto>
+    <Proyecto id="9" nombre= "VideoDemo"  area="Ixtli">
+	<img src="recursos/VideoDemo.jpg"/>
+	    <tags> 
+		    <tag id="1">Arquitectura</tag>
+		    <tag id="2">Legorreta</tag>	
+		    <tag id="3">Construcciones</tag>
+		    <tag id="4">Edificios</tag>
+		</tags>
+		<proyectPath equipo="HP wx4900"  os="GNU/Linux Debian">
+			<path>/home/ixtli/Desktop/Demo/video</path>
+				<version id="1" name ="Video Demo Ixtli"  script="run_video_Demo.sh" descripcion=""/>
+		</proyectPath>
+    </Proyecto>
+    <Proyecto id="10" nombre= "SuchilUbicacion"  area="Ixtli">
+	<img src="recursos/SuchilUbicacion.jpg"/>
+	    <tags> 
+		    <tag id="1">Arquitectura</tag>
+		    <tag id="2">Legorreta</tag>	
+		    <tag id="3">Construcciones</tag>
+		    <tag id="4">Edificios</tag>
+		</tags>
+		<proyectPath equipo="HP wx4900"  os="GNU/Linux Debian">
+			<path>/home/ixtli/Desktop/Demo/video</path>
+				<version id="1" name ="Ubicacion Suchil"  script="run_suchil_Ubicacion.sh" descripcion=""/>
+		</proyectPath>
+    </Proyecto>
+
+</ListaContenidos>
