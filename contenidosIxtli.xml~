@@ -165,7 +165,7 @@
     </Proyecto>
 
     <Proyecto id="11" nombre= "Tecnicas_Anestecia"  area="Ixtli">
-	<img src="recursos/anestecOdonto.jpg"/>
+	<img src="recursos/AnestecOdonto.jpg"/>
 	    <tags> 
 		    <tag id="1">Arquitectura</tag>
 		    <tag id="2">Legorreta</tag>	
